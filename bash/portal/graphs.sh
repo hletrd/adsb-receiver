@@ -252,7 +252,7 @@ if [[ "${DUMP1090_INSTALLED}" = "true" ]] ; then
 #                                                                            #
 # Each Instance block collects statistics from a separate named dump1090.    #
 # The URL should be the base URL of the webmap, i.e. in the examples below,  #
-# statistics will be loaded from http://localhost/dump1090/data/stats.json   #
+# statistics will be loaded from http://localhost/skyaware/data/stats.json   #
 #----------------------------------------------------------------------------#
 <Plugin python>
         ModulePath "${PORTAL_BUILD_DIRECTORY}/graphs"
@@ -260,7 +260,7 @@ if [[ "${DUMP1090_INSTALLED}" = "true" ]] ; then
         Import "dump1090"
         <Module dump1090>
                 <Instance localhost>
-                        URL "http://localhost/dump1090"
+                        URL "http://localhost/skyaware"
                 </Instance>
         </Module>
 </Plugin>
