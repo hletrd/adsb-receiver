@@ -190,7 +190,6 @@ LoadPlugin curl
 <Plugin "df">
         MountPoint "/"
         IgnoreSelected false
-        ReportReserved true
         ReportInodes true
 </Plugin>
 

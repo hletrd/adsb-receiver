@@ -1,8 +1,9 @@
 import collectd
 import json, math
 from contextlib import closing
-from urllib2 import urlopen, URLError
-import urlparse
+from urllib.request import urlopen
+from urllib.error import URLError
+import urllib.parse as urlparse
 import time
 
 def handle_config(root):
