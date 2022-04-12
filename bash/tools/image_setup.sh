@@ -187,8 +187,8 @@ CheckPackage lighttpd
 CheckPackage collectd-core
 CheckPackage rrdtool
 CheckPackage libpython2.7
-CheckPackage php7.0-cgi
-CheckPackage php7.0-json
+CheckPackage php7.4-cgi
+CheckPackage php7.4-json
 
 ## PREVIOUS LOCALE SCRIPTING THAT SET LOCALE NO LONGER WORKS PROPERLY ON STRETCH.
 ## The scripting setting this using this script has been removed for now.
