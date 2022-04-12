@@ -2,6 +2,9 @@
 
 # The ADS-B Receiver Project :airplane:
 
+* Fork of the [ADS-B Receiver Project by jprochazka](https://github.com/jprochazka/adsb-receiver), which seems to be no longer maintained.
+* Works on the latest Raspberry Pi OS Bullseye.
+
 This repository contains a set of scripts and files which can be used to setup an ADS-B receiver on a clean installation of a Debian derived operating system. The scripts are executed in order by the main install script depending on the installation options chosen by the user.
 
 **ADS-B Receiver Web Portal Features**
