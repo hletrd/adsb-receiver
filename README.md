@@ -33,8 +33,7 @@ The ADS-B Receiver Project website is located at https://www.adsbreceiver.net.
 
 ### Obtaining And Using This Software
 
-Download the latest ADS-B Receiver Raspbian Stretch Lite image for Raspberry Pi devices.
-https://github.com/jprochazka/adsb-receiver/releases/latest
+The RPI image is currently not supported.
 
 When setting up the portal you will have to choose between a lite or advanced installation. Advanced features adds flight logging and plotting and should only be chosen on devices running a more sturdy data storage solution.
 
@@ -43,8 +42,8 @@ When setting up the portal you will have to choose between a lite or advanced in
 #### Manual installations...
 
     sudo apt-get update
-    sudo apt-get install git
-    git clone https://github.com/jprochazka/adsb-receiver.git
+    sudo apt install git
+    git clone https://github.com/hletrd/adsb-receiver.git
     cd ~/adsb-receiver
     chmod +x install.sh
     ./install.sh
